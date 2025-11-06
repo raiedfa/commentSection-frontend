@@ -1,11 +1,6 @@
 
 import axios from "axios";
-
-
 const BASE_URL = "https://commentsection-backend-1.onrender.com";
-
-
-
 export const addComment = async (comment) => {
     try {
         const response = await axios.post(`${BASE_URL}/comments`, comment);
