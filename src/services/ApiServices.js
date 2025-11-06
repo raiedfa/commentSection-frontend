@@ -1,7 +1,8 @@
 
 import axios from "axios";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://commentsection-backend-1.onrender.com";
+
 
 export const addComment = async (comment) => {
     try {
