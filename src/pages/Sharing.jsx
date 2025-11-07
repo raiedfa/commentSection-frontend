@@ -15,7 +15,7 @@ const Sharing = () => {
   // שליפת כל התגובות מהשרת
   const fetchComments = async () => {
     try {
-      const response = await axios.get("http://localhost:9000/comments");
+      const response = await axios.get("https://commentsection-backend-1.onrender.com/comments");
       setComments(response.data);
     } catch (error) {
       console.error("Error fetching comments:", error);
@@ -32,7 +32,7 @@ const Sharing = () => {
     e.preventDefault();
     if (!text.trim()) return;
     try {
-      await axios.post("http://localhost:9000/comments", {
+      await axios.post("https://commentsection-backend-1.onrender.com/comments", {
         name,
         text,
       });
