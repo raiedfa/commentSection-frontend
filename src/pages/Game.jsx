@@ -15,7 +15,7 @@ const Game = () => {
 
         <div className="game-iframe">
           <iframe
-            src="https://kahoot.it/challenge/04672894?challenge-id=9e8cbfa4-1633-4688-9c29-7cbdd1c590b3_1762436541252"
+            src="https://kahoot.it/challenge/05664719?challenge-id=9e8cbfa4-1633-4688-9c29-7cbdd1c590b3_1765022509398"
             width="800"
             height="600"
             frameBorder="0"
